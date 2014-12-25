@@ -4,7 +4,9 @@ iOS app to remote control a custom, [Espruino](http://www.espruino.com/) powered
 
 Just hacked together in some hours, might not work for you at all!
 
-German: [Die exklusive Hintergrundgeschichte](http://knuspermagier.de) im Blog!
+![Screenshot](https://s3-eu-west-1.amazonaws.com/knusperfiles/bluelight.gif)
+
+German: [Die exklusive Hintergrundgeschichte](http://knuspermagier.de/2014-lichterkette.html) im Blog!
 
 # Prerequisites
 
