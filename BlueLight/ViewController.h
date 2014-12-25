@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BluetoothLightManager.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout, BluetoothLightManagerDelegate>
 
 
 @end
