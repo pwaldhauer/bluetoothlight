@@ -26,7 +26,9 @@
 
 - (NSData *)bluetoothLightCommandData {
     char bytes[1];
-    bytes[0] = self.stop ? 131 : 129;
+    //bytes[0] = self.stop ? 131 : 129;
+    
+    bytes[0] = self.stop ? 123 : 124;
     
     NSMutableData *data = [NSMutableData data];
     [data appendBytes:&bytes length:sizeof(bytes)];
